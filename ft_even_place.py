@@ -5,6 +5,6 @@ def ft_even_place(st):
     kol = ft_len(st)
     out = ''
     for i in range(kol):
-        if i % 2 == 0:
+        if i % 2 != 0 and i != 0:
             out += st[i]
     return out
